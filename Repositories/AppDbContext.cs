@@ -1,5 +1,5 @@
-﻿using Entity;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Repositories.Products;
 
 namespace Repositories
 {

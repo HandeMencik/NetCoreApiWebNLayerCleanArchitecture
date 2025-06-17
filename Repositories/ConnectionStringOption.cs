@@ -1,8 +1,7 @@
-﻿namespace Repositories
+﻿namespace Repositories;
+
+public class ConnectionStringOption
 {
-    public class ConnectionStringOption
-    {
-        public const string key = "ConnectionStrings";
-        public string SqlServer { get; set; } = default!;
-    }
+    public const string key = "ConnectionStrings";
+    public string SqlServer { get; set; } = default!;
 }
